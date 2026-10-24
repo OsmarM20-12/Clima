@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(160deg, #b8deff, #eef7ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #25364a;
+}
+
+.tarjeta {
+  width: 450px;
+  max-width: 400px;
+  margin: 30px 0;
+  padding: 28px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px #6b8ab633;
+  text-align: center;
+}
+
+h1 { margin-bottom: 8px; color: #2165b1; }
+h2 { margin-bottom: 8px; }
+label { display: block; margin-top: 24px; margin-bottom: 8px; font-weight: bold; }
+
+select, button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 9px;
+}
+
+select { border: 1px solid #b8c9dc; background: white; }
+.resultado { padding: 14px 0; }
+.temperatura { font-size: 58px; font-weight: bold; color: #2876cb; }
+.estado { font-size: 19px; }
+.detalles { text-align: left; background: #f1f7ff; padding: 8px 16px; border-radius: 10px; }
+.detalles p { margin: 12px 0; }
+
+button {
+  background: #2876cb;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button:hover { background: #1c5a9f; }
+button:disabled { opacity: 0.6; cursor: wait; }
+small { display: block; margin-top: 20px; color: #667; }
+.error { color: #b00020; }
